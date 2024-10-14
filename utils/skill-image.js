@@ -73,6 +73,19 @@ import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
 
+import apify from '/public/svg/skills/apify.svg'
+import beautifulsoup from '/public/svg/skills/beautiful-soup.svg'
+import jenkins from '/public/svg/skills/jenkins.svg'
+import jquery from '/public/svg/skills/jquery.svg'
+import nodejs from '/public/svg/skills/nodejs.svg'
+import octoparse from '/public/svg/skills/octoparse.svg'
+import playwright from '/public/svg/skills/playwright.svg'
+import requests from '/public/svg/skills/requests.svg'
+import scrapy from '/public/svg/skills/scrapy.svg'
+import threejs from '/public/svg/skills/threejs.svg'
+import tailwindcss from '/public/svg/skills/tailwindcss.svg'
+import kubernetes from '/public/svg/skills/kubernetes.svg'
+
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -225,6 +238,30 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'apify':
+      return apify
+    case 'beautifulsoup':
+      return beautifulsoup
+    case 'jenkins':
+      return jenkins
+    case 'jquery':
+      return jquery
+    case 'nodejs':
+      return nodejs
+    case 'octoparse':
+      return octoparse
+    case 'playwright':
+      return playwright
+    case 'requests':
+      return requests
+    case 'scrapy':
+      return scrapy
+    case 'threejs':
+      return threejs
+    case 'tailwindcss':
+      return tailwindcss
+    case 'kubernetes':
+      return kubernetes
     default:
       break;
   }
